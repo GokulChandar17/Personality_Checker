@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Prediction Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h1>Personality Prediction Result</h1>
+    <h2>Candidate Name: {{ candidate_name }}</h2>
+    <h2>Predicted Personality: {{ personality }}</h2>
+    <h2>Resume Data:</h2>
+    <ul>
+        {% for key, value in resume_data.items() %}
+            <li><strong>{{ key }}:</strong> {{ value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
