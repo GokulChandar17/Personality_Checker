@@ -28,7 +28,6 @@ Enter the candidate's details and upload their resume on the home page.
 Click the "Predict" button to see the predicted personality and the extracted information from the resume.
 
 **Directory Structure**
-app.py: Main Flask application file.
-templates/: Contains HTML templates for rendering the web pages.
-static/: Contains static files such as CSS and JavaScript.
-requirements.txt: List of Python dependencies.
+- app.py: Main Flask application file.
+- templates/: Contains HTML templates for rendering the web pages.
+- static/: Contains static files such as CSS and JavaScript.
